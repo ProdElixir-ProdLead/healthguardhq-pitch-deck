@@ -1,0 +1,73 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* HealthGuardHQ Pitch Deck Custom Styles */
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  overflow: hidden;
+}
+
+/* Font families */
+.font-headline {
+  font-family: 'Sora', sans-serif;
+}
+
+.font-body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Smooth animations */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar (if needed) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0D9488;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0a7168;
+}
+
+/* Glassmorphism effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Glow effects */
+.glow-teal {
+  box-shadow: 0 0 20px rgba(13, 148, 136, 0.3);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(22, 163, 74, 0.3);
+}
+
+.glow-amber {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+}
+
+.glow-red {
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
+}
